@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>What Kind of Student Are You?</title>
+        <link rel="stylesheet" href="css/app.css" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <fieldset>
+        <h1>What Kind of Student are You?</h1>
+        </fieldset>
+            First Name: <input id="name" type="text"/>
+            Last Name: <input id="name" type="text"/><br><br>
+            Age: 
+            <select id="age" name="age">
+                <option value=""disabled selected>Select One</option>
+                <option value="one">younger than 18</option>
+                <option value="two">18 - 24</option>
+                <option value="three">25 - 40</option>
+                <option value="four">41 - 50</option>
+                <option value="five">50+</option>
+            </select> 
+            <br><br>
+            What is your ideal study environment?<br>
+                <img class="q1Choice" id="img1" src="img/library.jpg" width="165" height="130">
+                <img class="q1Choice" id="img2" value="second" src="img/home.jpg" width="165" height="130">
+                <img class="q1Choice" id="img3" value="third" src="img/group.jpg" width="165" height="130">
+                <img class="q1Choice" id="img4" value="fourth" src="img/outdoors.jpg" width="165" height="130">
+                <br><br>
+            How do you spend your weekends?<br>
+                <img class="q2Choice" id="img5" src="img/trip.jpg" width="165" height="130">
+                <img class="q2Choice" id="img6" src="img/sleep.jpg" width="165" height="130">
+                <img class="q2Choice" id="img7" src="img/games.jpg" width="165" height="130">
+                <img class="q2Choice" id="img8" src="img/homework.jpg" width="165" height="130">
+                <br><br>
+            What would be your main reason for studying abroad?<br>
+                <img class="q3Choice" id="img9" src="img/career.jpg" width="165" height="130">
+                <img class="q3Choice" id="img10" src="img/growth.gif" width="165" height="130">
+                <img class="q3Choice" id="img11" src="img/friends.jpg" width="165" height="130">
+                <img class="q3Choice" id="img12" src="img/culture.jpg" width="165" height="130">
+                <br><br>
+            <button type="button" class="btn">Get Results!</button>
+            <h3 id="results"></h3>
+            <div id="resultImg"></div>
+        <script src='js/app.js'></script>
+    </body>
+</html>

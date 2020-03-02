@@ -1,0 +1,33 @@
+fieldset {
+    background-image: -webkit-linear-gradient(top right, #E3FDF5 0%, #FFE6FA 100%);
+    background-image: -moz-linear-gradient(top right, #E3FDF5 0%, #FFE6FA 100%);
+    background-image: -o-linear-gradient(top right, #E3FDF5 0%, #FFE6FA 100%);
+    background-image: linear-gradient(to bottom left, #E3FDF5 0%, #FFE6FA 100%);
+ text-align: center;
+ font-family: Optima;
+}
+body {
+background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Optima;
+}
+input[type=text] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btn {
+    text-align: center;
+    font-size: 16px;
+}
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
